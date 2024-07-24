@@ -1,0 +1,17 @@
+.scrollbarCustom {
+  scrollbar-width: thin;
+  scrollbar-color: gray white;
+}
+
+.scrollbarCustom::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbarCustom::-webkit-scrollbar-track {
+  background: orange;
+}
+
+.scrollbarCustom::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+}

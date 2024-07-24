@@ -1,0 +1,43 @@
+.carousel-first .slick-next {
+  height: 60px;
+  width: 60px;
+  right: 15px;
+}
+.carousel-first .slick-prev {
+  left: 15px;
+  height: 60px;
+  width: 60px;
+}
+/* .carousel-first .slick-list {
+  height: 100%;
+} */
+/* .carousel-first .slick-list .slick-track {
+  height: 100%;
+} */
+.carousel-first .slick-prev::before {
+  font-size: 55px;
+}
+
+.carousel-first .slick-next::before {
+  font-size: 55px;
+}
+
+.carousel-second .slick-next {
+  right: 15px;
+}
+
+.carousel-second .slick-prev {
+  left: 15px;
+}
+
+.carousel-second h4 {
+  font-size: 14px;
+}
+.carousel-second p {
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .carousel-second h4 {
+    font-size: 20px;
+  }
+}
